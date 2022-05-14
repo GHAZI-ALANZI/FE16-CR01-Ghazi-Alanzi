@@ -11,12 +11,14 @@ bottom: 57vh;
 position: fixed;
 right: 0vw;
 }
+
 img:nth-of-type(2){
     width: 13vw;
     height: 7vh;
     top: 2vh;
     left: 1vw;
   }
+
   img:nth-of-type(3){
     width:7vw;
     height:7vh;
@@ -25,3 +27,40 @@ img:nth-of-type(2){
     top: 35vh;
     position: fixed;
   }
+
+  header input{
+   position: fixed;
+    width: 60vw;
+    height: 3vh;
+    right: 18vw;
+    top: 2%;
+  }
+ 
+ 
+     #button1{
+       width: 6vw;
+       height: 6vh;
+       padding: 0;
+       right: 11vw; 
+       position: fixed; 
+       border-radius: 17px;
+       font-size: 12px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bolder;
+       color: rgb(255, 255, 255);
+       background-color: rgb(169, 27, 27);
+    }
+
+  #button2{
+      width: 6vw;
+      height: 6vh;
+      padding: 0;
+      right: 4vw; 
+      position: fixed; 
+      border-radius: 17px;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      color: rgb(255, 255, 255);
+      background-color: rgb(169, 27, 27);
+     } 
