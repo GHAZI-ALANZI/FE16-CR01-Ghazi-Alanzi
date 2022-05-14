@@ -64,3 +64,24 @@ img:nth-of-type(2){
       color: rgb(255, 255, 255);
       background-color: rgb(169, 27, 27);
      } 
+
+     .hhh{
+        position: fixed;
+        width: 70vw;
+        height: 9vh;
+        left: 20vw;
+        top: 23vh;
+        position: fixed;
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+      .hhh p {
+        font-size: 12px;
+        }
+  
+      .hhh h2{
+        font-size: 1.3em;
+        font-weight: bolder;
+        color: aliceblue;
+    }
