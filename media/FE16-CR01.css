@@ -151,3 +151,18 @@ img:nth-of-type(2){
                 border-radius: 11px;
                 font-size: 13px;
                 font-weight:bold; }
+
+                .fot img{
+                    width: 13vw;
+                    height: 5vh;
+                    bottom: 8vh;
+                    position: fixed;
+                    left: 44vw;}
+
+                  .fot{
+                  color: rgb(255, 255, 255);
+                  bottom: 0vh;
+                  position: fixed;
+                  text-align: center;
+                  font-family: Arial, Helvetica, sans-serif;
+                  width: 100vw;}
