@@ -107,4 +107,47 @@ img:nth-of-type(2){
           #mainbox h2{
             text-align: center;
             font-size: 27px;}
-            
+
+            hr{
+             width: 19vw;}
+
+            button{
+            height:3.5vh;}
+
+            .box1{
+                color: rgb(255, 255, 255);
+                background-color: rgb(15, 94, 140);
+                width: 24vw;
+                height: 28vh;
+                left: 12vw;
+                top:54vh;
+                position: fixed;
+                border-radius: 11px;
+                padding: 0px;
+                font-size: 13px;
+                font-weight:bold;}
+
+              .box2{
+                color: rgb(255, 255, 255);
+                background-color: rgb(15, 94, 140);
+                width: 24vw;
+                height: 28vh;
+                right: 12vw;
+                top:54vh;
+                position: fixed;
+                border-radius: 11px;
+                padding: 0px;
+                font-size: 13px;
+                font-weight:bold;}
+
+              .box3{
+                color: rgb(255, 255, 255);
+                background-color: rgb(15, 94, 140);
+                width: 24vw;
+                height: 28vh;
+                right: 38vw;
+                top:54vh;
+                position: fixed;
+                border-radius: 11px;
+                font-size: 13px;
+                font-weight:bold; }
