@@ -1,10 +1,13 @@
 body{
- background-color: black;}
+ background-color: black;
+margin: 0;
+
+}
 
  /*I use vw,vh,em for more web responsive*/
  
 .top {
-position: fixed;
+position: relative;
 width: 10vw;
 height: 5vh; 
   }
@@ -12,33 +15,32 @@ height: 5vh;
   .top img{
 width: 100vw;
 height:100vh;
-bottom: 57vh;
-position: fixed;
+bottom: 53.9vh;
 right: 0vw;
+position: relative;
 }
 
-img:nth-of-type(2){
+#im-2{
     width: 13vw;
     height: 7vh;
-    top: 2vh;
+    top: -99vh;
     left: 1vw;
   }
 
-  img:nth-of-type(3){
+  #im-3{
     width:7vw;
     height:7vh;
-   
     left: 20vw;
-    top: 35vh;
-    position: fixed;
+    top: -68.5vh;
+    position: relative;
   }
 
   header input{
-   position: fixed;
-    width: 60vw;
-    height: 3vh;
-    right: 18vw;
-    top: 2%;
+   position: relative;
+    width: 65vw;
+    height: 4vh;
+    right: -16vw;
+    top: -113vh;
   }
  
  
@@ -47,13 +49,15 @@ img:nth-of-type(2){
        height: 6vh;
        padding: 0;
        right: 11vw; 
-       position: fixed; 
+       position: absolute; 
        border-radius: 17px;
        font-size: 12px;
        font-family: Arial, Helvetica, sans-serif;
        font-weight: bolder;
        color: rgb(255, 255, 255);
        background-color: rgb(169, 27, 27);
+      left: 91vw;
+      top: 2vh;
     }
 
   #button2{
@@ -61,13 +65,15 @@ img:nth-of-type(2){
       height: 6vh;
       padding: 0;
       right: 4vw; 
-      position: fixed; 
+      position: absolute; 
       border-radius: 17px;
       font-size: 12px;
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bolder;
       color: rgb(255, 255, 255);
       background-color: rgb(169, 27, 27);
+      left: 83.7vw;
+      top: 2vh;
      } 
 
      .head-text{
@@ -76,7 +82,7 @@ img:nth-of-type(2){
         height: 9vh;
         left: 20vw;
         top: 23vh;
-        position: fixed;
+        position: relative;
         color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
      }
@@ -93,25 +99,29 @@ img:nth-of-type(2){
 
     #main-box{
         color: rgb(255, 255, 255);
-        position: fixed;
-        border: px outset rgb(255, 193, 7);
         background-color: rgb(28, 22, 24);
         width: 100vw;
         height: 44vh;
-        bottom: 15vh;
-        right: 0vw;
-        left: 0vw;
+        top: 25vh;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;}
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+      }
 
         #main-box h1{
             text-align: center;
             text-shadow: 2PX 1px 5PX rgb(253, 237, 237);
-            font-size: 44px; }
+            font-size: 46px; }
 
           #main-box h2{
             text-align: center;
             font-size: 27px;}
+
+            #main-box button{
+              position: absolute;
+              left: 8.5vw;
+              bottom: 3.5vh;
+            }
 
             hr{
              width: 19vw;}
@@ -124,24 +134,25 @@ img:nth-of-type(2){
                 background-color: rgb(15, 94, 140);
                 width: 24vw;
                 height: 28vh;
-                left: 12vw;
-                top:54vh;
-                position: fixed;
+                left: 11vw;
+                bottom:1vh;
+                margin-right: 1vw;
                 border-radius: 11px;
-                padding: 0px;
+                padding: 1px;
                 font-size: 13px;
-                font-weight:bold;}
+                font-weight:bold;
+              position: relative;}
 
               .box-2{
                 color: rgb(255, 255, 255);
                 background-color: rgb(15, 94, 140);
                 width: 24vw;
                 height: 28vh;
-                right: 12vw;
-                top:54vh;
-                position: fixed;
+                left: 63vw;
+                bottom:29.5vh;
+                position: relative;
                 border-radius: 11px;
-                padding: 0px;
+                padding: 1px;
                 font-size: 13px;
                 font-weight:bold;}
 
@@ -150,44 +161,56 @@ img:nth-of-type(2){
                 background-color: rgb(15, 94, 140);
                 width: 24vw;
                 height: 28vh;
-                right: 38vw;
-                top:54vh;
-                position: fixed;
+                left: 37vw;
+                bottom: 57.5vh;
+                position: relative;
                 border-radius: 11px;
                 font-size: 13px;
-                font-weight:bold; }
+                font-weight:bold;
+                padding: 1px; }
 
-                .fot img{
-                    width: 13vw;
-                    height: 5vh;
-                    bottom: 8vh;
-                    position: fixed;
-                    left: 44vw;}
+            
+                .im-fot{
+                  width: 13vw;
+                  height: 5vh;
+                  bottom: -29vh;
+                  position: relative;
+                  left: 1vw;}
 
-                  .fot{
-                  color: rgb(255, 255, 255);
-                  bottom: 0vh;
-                  position: fixed;
-                  text-align: center;
-                  font-family: Arial, Helvetica, sans-serif;
-                  width: 100vw;}
+                .fot{
+                color: rgb(255, 255, 255);
+                bottom: 0vh;
+                position: relative;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100vw;}
 
-                  .blog {
-                    width: 10vw;
-                    height: 12vh;
-                    position: fixed;
-                    bottom: 1vh;  }
+                .blog {
+                  width: 10vw;
+                  height: 12vh;
+                  position: relative;
+                  bottom: -9vh;
+                  right:-1vw;
+                  }
 
-                .fac {
-                  width: 7vw;
-                  height: 11vh;
-                  position: fixed;
-                  bottom: 1vh;
-                  left: 17vw; }
+              .fac {
+                width: 7vw;
+                height: 11vh;
+                position: relative;
+                bottom: 4vh;
+                left: 21vw; }
 
-                .twit{
-                  width: 7vw;
-                  height: 11vh;
-                  position: fixed;
-                  bottom: 1vh;
-                  left: 70vw; }
+              .twit{
+                width: 7vw;
+                height: 11vh;
+                position: relative;
+                bottom: 16vh;
+                left: 70vw; }
+
+                .logo{
+                  position: relative;
+                  bottom: -29vh;
+                  right: -1vw;
+                }
+                
+               
